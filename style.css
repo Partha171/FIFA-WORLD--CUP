@@ -213,3 +213,38 @@ body {
 /*-------------------
   --footer part end-- 
  ---------------------*/
+
+
+/*-----------------------
+ -- UpComming match start--
+ ------------------------ */
+
+.upcoming {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 20px;
+}
+
+.matches {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.match {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.match img {
+    width: 25%;
+}
+
+/*-----------------------
+ -- UpComming match end--
+ ------------------------ */
