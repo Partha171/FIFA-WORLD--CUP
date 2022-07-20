@@ -1,0 +1,86 @@
+/* Font awesome style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------------------
+--Top-Banner part start--
+ ----------------------*/
+
+.top-banner {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 1321px;
+    height: 646px;
+    margin: 0 auto;
+    padding-top: 50px;
+    border-radius: 20px;
+}
+
+.banner {
+    color: whitesmoke;
+}
+
+.banner-tittle {
+    font-size: 70px;
+    padding-left: 106px;
+}
+
+.banner-text {
+    padding-left: 106px;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.banner-button {
+    margin-left: 106px;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgba(223, 48, 35, 0.916);
+    border-radius: 10px;
+}
+
+/* button effect */
+
+.banner-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.banner-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.banner-button:hover span {
+    padding-right: 25px;
+}
+
+.banner-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.banner-images {
+    margin: 0 auto;
+    padding: 2% 2% 0 2%;
+}
+
+.banner-img img {
+    width: 581px;
+}
+
+/* Top-Banner part end*/
