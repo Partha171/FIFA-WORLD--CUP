@@ -171,3 +171,45 @@ body {
 /* -------------------
  --Blog part start-- 
  -------------------*/
+
+
+/*--------------------
+ --footer part start-- 
+ ---------------------*/
+
+.footer-part {
+    text-align: center;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-heading {
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.footer-line {
+    width: 75%;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    margin-bottom: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: whitesmoke;
+    padding-right: 15px;
+}
+
+.fa-brands.social {
+    color: whitesmoke;
+    padding-right: 40px;
+    font-size: 26px;
+}
+
+/*-------------------
+  --footer part end-- 
+ ---------------------*/
